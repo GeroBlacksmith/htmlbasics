@@ -1,0 +1,14 @@
+.main{
+    display:grid;
+    grid-template-columns: 25%;
+    grid-column-gap: 5px;
+    margin: 15px;
+    
+}
+.leaf:nth-child(odd){
+    background: #ccc;
+    
+}
+.leaf:nth-child(even){
+    border: 1px black solid;
+}
